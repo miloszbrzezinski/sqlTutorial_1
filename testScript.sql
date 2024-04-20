@@ -1,10 +1,10 @@
 -- Write your own SQL object definition here, and it'll be included in your package.
--- CREATE TABLE EmployeeDemographics
--- (EmployeeID int,
--- FirstName varchar(50),
--- LastName varchar(50),
--- Age int,
--- Gender varchar(50))
+CREATE TABLE WarehouseEmployeeDemographics
+(EmployeeID int,
+FirstName varchar(50),
+LastName varchar(50),
+Age int,
+Gender varchar(50))
 
 -- CREATE TABLE EmployeeSalary
 -- (
@@ -13,7 +13,13 @@
 --     Salary int
 -- )
 
-INSERT INTO EmployeeDemographics VALUES
+INSERT INTO WarehouseEmployeeDemographics VALUES
 (
-    1001, 'Jim', 'Halpert', 30, 'Male'
+    1050, 'Roy', 'Andreson', 31, 'Male'
+),
+(
+    1051, 'Hidetoshi', 'Hasagawa', 40, 'Male'
+),
+(
+    1052, 'Val', 'Johnson', 31, 'Female'
 )
